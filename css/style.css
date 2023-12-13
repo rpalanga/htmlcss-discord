@@ -8,7 +8,7 @@
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
-    border: dashed 2px black;
+    /* border: dashed 2px black; */
     /* test */
 
     max-width: 1000px;
@@ -18,10 +18,10 @@
 }
 
 .container-small {
-    background-color: #ee82ee;
+    /* background-color: #ee82ee; */
     /* test */
 
-    max-width: 800px;
+    max-width: 600px;
 
     margin-left: auto;
     margin-right: auto;
@@ -37,25 +37,37 @@ header, section {
     background-color: #d3d3d3;
 }
 
+.back-image{
 
+    background-image: url(../img/jumbo.png);
+
+    /* test */
+    background-size: 100% 100%;
+    
+    /* fine test */
+    
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
 
 
 /* sezione navbar */
 nav {
-    background-color: #add8e6;
+    /* background-color: #add8e6; */
     /* test */
     padding: 10px ;
 }
 
 nav .container > * {
-    border: dashed 2px black;
+    /* border: dashed 2px black; */
     /* test */
 
     padding: 10px;
 }
 
 nav .container {
-    background-color: #daa520;
+    /* background-color: #daa520; */
     /* test */
 
     display: flex;
@@ -65,7 +77,29 @@ nav .container {
 nav .logo {
     width: 110px;
     
+    
 }
+
+nav .login .Button-nav{
+    background-color: white;
+    
+    /* test */
+
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+
+    color: black;
+
+    font-size: 12px;
+    
+}
+
+
+    
+
+
+
 
 nav .logo img{
     width: 100px;
@@ -102,17 +136,71 @@ nav .login {
 }
 /* fine sezione navbar */
 
+/* modifica Pulsanti */
+.radius{
+    border-radius: 12px;
+
+
+}
+
+/* fine modifica Pulsanti */
+
+
 
 
 /* sezione hero */
 #hero {
-    background-color: #00008b;
+    /* background-color: #00008b; */
     /* test */
 }
 
 #hero .container-small {
-    height: 300px;
+    /* height: 300px; */
     /* test */
+
+    text-align: center;
+    padding: 20px;
+
+
+    text-justify: ;
+}
+
+ header .container-small .Button-header {
+    display: inline-block;
+    margin: 20px;
+}
+
+header .container-small h1{
+
+    margin: 20px 20px 40px 20px;
+    
+
+    color: white
+
+}
+
+header .container-small p{
+    color: white;
+
+    text-align: justify;
+}
+
+header .container-small .Button-left{
+    background-color: white;
+    color: black;
+
+    padding: 15px;
+
+    border-radius: 25px;
+}
+
+header .container-small .Button-right{
+    background-color: black;
+    color:white;
+
+    padding: 15px;
+
+    border-radius: 25px;
 }
 
 
@@ -125,9 +213,9 @@ nav .login {
 }
 
 .column-big {
-    background-color: #1e90ff;
+    /* background-color: #1e90ff; */
     height: 400px;
-    border: dashed 2px black;
+    /* border: dashed 2px black; */
     /* test */
 
     /* width: 60%; */
@@ -135,9 +223,9 @@ nav .login {
 }
 
 .column-small {
-    background-color: #ffc0cb;
+    /* background-color: #ffc0cb; */
     height: 400px;
-    border: dashed 2px black;
+    /* border: dashed 2px black; */
     /* test */
 
     /* width: 40%; */
