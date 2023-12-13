@@ -211,12 +211,23 @@ header .container-small .Button-right{
 .row {
     display: flex;
 }
-
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 .column-big {
     /* background-color: #1e90ff; */
     height: 400px;
     /* border: dashed 2px black; */
     /* test */
+
+    /* test img */
+    /* background-image:url(../img/item1.svg) ; */
+    /* box-sizing: 100% 100%; */
+    /* fine test img */
+
 
     /* width: 60%; */
     flex-grow: 1;
@@ -224,20 +235,60 @@ header .container-small .Button-right{
 
 .column-small {
     /* background-color: #ffc0cb; */
-    height: 400px;
+    /* height: 400px; */
     /* border: dashed 2px black; */
     /* test */
 
     /* width: 40%; */
-    width: 400px;
+    /* width: 400px; */
+    padding: 5%;
+    
+
+}
+
+ .container .column-small h2{
+    font-size: 2.0em;
+    padding-bottom: 15px;
+}
+
+.container .column-small p{
+    /* font-size: 1.5em; */
+    line-height: 25px;
+}
+
+.big-content .title-img h2,.big-content .subtitle-img h2 {
+    font-size: 2.0em;
+    padding-bottom: 15px;
+
+}
+
+.big-content .title-img p, .big-content .subtitle-img p{
+    line-height: 25px;
+}
+
+.big-content .subtitle-img .Button-img {
+    background-color: #92A0DC;
+
+    padding: 14px;
+
+    width: 20%;
+
+
+}
+.big-content .subtitle-img .radius{
+    border-radius: 25px;
+}
+/* test */
+.display-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 
-.big-content {
-    background-color: #228b22;
-    height: 600px;
-    /* test */
-}
+
+
 /* fine sezioni grigie */
 
 
@@ -296,3 +347,10 @@ footer #footer-bottom > * {
 }
 
 /* fine sezione footer */
+
+/* controllare sezione stelline */
+.stelline{
+    background-image: url(../img/stars.svg);
+    
+}
+/* */
