@@ -273,6 +273,8 @@ header .container-small .Button-right{
 
     width: 20%;
 
+    color: white;
+
 
 }
 .big-content .subtitle-img .radius{
@@ -293,6 +295,11 @@ header .container-small .Button-right{
 
 
 /* sezione footer */
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+}
+
 
 footer {
     background-color: #23272a;
@@ -303,7 +310,7 @@ footer {
 
 
 footer .container > * {
-    border: dashed 2px white;
+   
     /* test */
 }
 
@@ -314,16 +321,36 @@ footer #footer-top {
 
 footer #footer-top .footer-links {
     background-color: #f08080;
-    height: 500px;
-    width: 250px;
+    
+    width: 500px;
     /* test */
 }
 
 footer #footer-top .footer-column {
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
     /* test */
     
     flex-grow: 1;
+
+    padding: 5%;
+
+    text-align: left;
+}
+footer #footer-top .footer-column h6{
+    font-size: 16px;
+}
+
+
+footer #footer-top .footer-column li{
+    list-style-type: none;
+    padding: 10px;
+
+    color: white;
+    
+}
+ footer #footer-top .footer-column .first-word{
+    color: #7688D4;
+    font-weight: bolder;
 }
 
 footer #footer-bottom {
@@ -354,3 +381,12 @@ footer #footer-bottom > * {
     
 }
 /* */
+/* test footer display */
+.chi-siamo{
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-flex #footer-top .footer-links .img-footer .bandiera-italiana .img-footer img{
+    width: 15px;
+    height: 10px;
+}
