@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 /* reset */
 
@@ -320,15 +321,13 @@ footer #footer-top {
 }
 
 footer #footer-top .footer-links {
-    background-color: #f08080;
     
-    width: 500px;
-    /* test */
+    
+    
 }
 
 footer #footer-top .footer-column {
-    /* background-color: #20b2aa; */
-    /* test */
+    
     
     flex-grow: 1;
 
@@ -354,8 +353,8 @@ footer #footer-top .footer-column li{
 }
 
 footer #footer-bottom {
-    background-color: #7fffd4;
-    /* test */
+    
+    
 
     margin-top: 16px;
 }
@@ -367,11 +366,12 @@ footer #footer-bottom {
 }
 
 footer #footer-bottom > * {
-    background-color: #ffb6c1;
+    /* background-color: #ffb6c1; */
     /* test */
 
     padding: 4px 8px;
 }
+
 
 /* fine sezione footer */
 
@@ -384,9 +384,40 @@ footer #footer-bottom > * {
 /* test footer display */
 .chi-siamo{
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
-footer .footer-flex #footer-top .footer-links .img-footer .bandiera-italiana .img-footer img{
+.italia{
     width: 15px;
     height: 10px;
+
+
+}
+
+#footer-top h5{
+    font-size: 30px;
+    color: #7688D4;
+    
+}
+
+
+
+
+#footer-bottom .button{
+    background-color: #7688D4;
+    color: white;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    width: 100px;
+    
+    padding: 10px;
+
+
+}
+
+.language{
+    color: white;
+    padding: 2px;
 }
